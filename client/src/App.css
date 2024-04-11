@@ -1,0 +1,72 @@
+body{
+    margin: auto;
+    width: 50%;
+    font-family:  sans-serif;
+}
+.header{
+    text-align: center;
+}
+.inputform{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+    outline: none;
+}
+.removeall{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 2.5rem;
+    text-align: center;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: rgb(84, 84, 219);
+    color: white;
+    padding: 10px 10px;
+    font-size: 1rem; 
+    cursor: pointer;
+    height: 2.5rem;
+}
+.alltabs{
+    display: flex;
+    gap: 40px;
+}
+.tododata{
+    display: flex;
+    margin-top: 20px;
+    height: 2.5rem;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    width:25px;
+    height: 25px;
+}
+.delete{
+    color: red;
+    margin-left: 30px;
+}
+.data{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.edittext{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+    color: #83e305;
+    font-size: 1.2rem;
+}
+
